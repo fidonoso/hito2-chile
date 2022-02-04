@@ -1,0 +1,39 @@
+
+table{
+    position:relative;
+    table-layout:fixed;
+}
+thead {
+    position:absolute;
+    display: block;
+    z-index: -1;
+    height:5vh;
+}
+tbody{
+    top: 5vh;
+    position:absolute;
+    height:77vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    overflow:scroll !important;
+    display:block !important;
+    
+}
+
+.colNum{
+    width: 14.28% !important;
+}
+.colPais, .colConfirm, .colMuertos, .colRec, .colActives, .colAccion{
+    width: 14.28% !important;
+}
+
+thead tr{
+    position: absolute;
+    
+    width: 100% !important;
+    padding-right: 16px;
+}
+
+thead th{
+display:inline-block;
+}
